@@ -1,9 +1,11 @@
 ---
-description: a blog by Sergio Bermúdez
 icon: square-terminal
+description: a GitbBook by Sergio Bermúdez
 cover: >-
-  https://images.unsplash.com/photo-1604315841269-a1f298321670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxjeWJlcnxlbnwwfHx8fDE3MzcxMTA2NTZ8MA&ixlib=rb-4.0.3&q=85
-coverY: -98
+  .gitbook/assets/DALL·E 2025-01-23 21.10.47 - A striking and modern digital
+  illustration representing hacking, featuring a glowing laptop with lines of
+  code and neon green and blue digital effects.webp
+coverY: 125.23243243243243
 layout:
   cover:
     visible: true
@@ -22,12 +24,22 @@ layout:
 
 # b3rmu
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+In a world where technology connects us all, safeguarding our digital lives has never been more critical.&#x20;
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+Here, you'll find detailed project walkthroughs, tutorials, and practical tips that can help you strengthen your knowledge and skills. Each post is designed to demystify complex security concepts, making them accessible to anyone interested in the ever-evolving field of cybersecurity.
 
-**Para el cover la imagen debe ser 1800x2360**
+### whoami
+
+🥸 I am currently working as a Cybersecurity Specialist for an international SOC.
+
+🚀 I want to improve myself and progress in my cybersecurity career, so I like to spend some time every day reading, practicing or developing different projects.
+
+🍔 I love traveling and eating, even more I love doing both things with the people I appreciate.
+
+### Connect with me
+
+<div align="left"><figure><img src=".gitbook/assets/linkedin.png" alt="" width="128"><figcaption><p><a href="https://www.linkedin.com/in/bsergio/">My LinkedIn</a></p></figcaption></figure></div>
 
 ### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Check out the <strong>Cybersecurity Homelab Project</strong></td><td><a href="projects/cybersecurity-homelab-project/">cybersecurity-homelab-project</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Check out the <strong>Cybersecurity Homelab Project</strong></td><td><a href="projects/cybersecurity-homelab-project/">cybersecurity-homelab-project</a></td><td><a href=".gitbook/assets/DALL·E 2025-01-23 21.04.26 - A visually striking and modern cybersecurity homelab setup. The image features a dimly lit room with multiple monitors displaying code, graphs, and cy.webp">DALL·E 2025-01-23 21.04.26 - A visually striking and modern cybersecurity homelab setup. The image features a dimly lit room with multiple monitors displaying code, graphs, and cy.webp</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>

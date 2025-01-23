@@ -14,7 +14,7 @@ layout:
 
 # 1 - Introduction and design of the Network Diagram
 
-In this project, I will build a Cybersecurity Homelab using VirtualBox. I am aiming to build a complete system using open source and free tools.
+For this project, I will build a Cybersecurity Homelab using VirtualBox. I am aiming to build a complete system using open source and free tools.
 
 The project will be divided into several parts, starting with the high-level design of the lab, and then gradually building each component.
 
