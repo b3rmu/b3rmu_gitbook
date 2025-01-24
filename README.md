@@ -24,19 +24,17 @@ layout:
 
 # b3rmu
 
-In a world where technology connects us all, safeguarding our digital lives has never been more critical.&#x20;
-
-Here, you'll find detailed project walkthroughs, tutorials, and practical tips that can help you strengthen your knowledge and skills. Each post is designed to demystify complex security concepts, making them accessible to anyone interested in the ever-evolving field of cybersecurity.
+I have created this GitBook to share with the community walkthroughs of the different cybersecurity projects I like to develop in my free time.
 
 ### whoami
 
-🥸 I am currently working as a Cybersecurity Specialist for an international SOC.
+👨🏻‍💻 I am currently working as a Cybersecurity Specialist for an international SOC.
 
 🚀 I want to improve myself and progress in my cybersecurity career, so I like to spend some time every day reading, practicing or developing different projects.
 
 🍔 I love traveling and eating, even more I love doing both things with the people I appreciate.
 
-### Connect with me
+### Connect with me!
 
 <div align="left"><figure><img src=".gitbook/assets/linkedin.png" alt="" width="128"><figcaption><p><a href="https://www.linkedin.com/in/bsergio/">My LinkedIn</a></p></figcaption></figure></div>
 

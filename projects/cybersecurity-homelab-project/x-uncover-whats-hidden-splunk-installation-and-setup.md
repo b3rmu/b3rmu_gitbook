@@ -26,7 +26,7 @@ What do I mean with “_image_”? No, it is not a picture of your cat, a .iso O
 
 I will choose the latest LTS version (in my case 24.04.1), as you can see the file is close to 6 GB:
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@ I will choose the latest LTS version (in my case 24.04.1), as you can see the fi
 
 Open VirtualBox and click on New.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Give our VM a name and choose where do you want to store it. Then select the ISO image we downloaded and check the **Skip Unattended Installation** box. Click Next.
 
@@ -42,7 +42,7 @@ Give our VM a name and choose where do you want to store it. Then select the ISO
 
 Set the Base Memory to **4096MB**, the Processors do not need to be increased. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Set the Hard Disk size to **100GB** and click Next.
 
@@ -58,11 +58,11 @@ Optionally, we can include the VM in the previously created group.
 
 Let's configure our machine. To do this we select the VM and click on Settings in the toolbar.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go to System and there in the **motherboard tab** we will place Hard Disk as the first option in the Boot Order, followed by Optical and uncheck the Floppy option.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click OK to save changes. The configuration is done! ✅
 
@@ -70,39 +70,39 @@ Click OK to save changes. The configuration is done! ✅
 
 Start by booting our virtual machine, select it and click Start.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When these three options appear on the screen, press Enter to start the installer.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We wait a little and select our language. Click on Next.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Proceed to the next screen, where you can choose the keyboard you want to use. In my case default English (US) keyboard will work.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We do not modify anything in this screen. Click on Next.
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select Install Ubuntu.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on Interactive installation. Click on Next.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choose Default selection, click Next.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 Check “Install third-party software for graphics and Wi-Fi hardware” box. Click on Next.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

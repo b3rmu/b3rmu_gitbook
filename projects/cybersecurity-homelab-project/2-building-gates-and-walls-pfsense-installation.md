@@ -20,35 +20,35 @@ pfSense is an open-source firewall and router software distribution that provide
 
 Go to [pfSense Download link](https://atxfiles.netgate.com/mirror/downloads/) and download the **am64** version ISO of the latest version available. In my case, latest version available is 2.7.2.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="481"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="481"><figcaption></figcaption></figure>
 
 Use a decompression tool to extract the ISO file.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Create the VM
 
 I will use VirtualBox to create the VM that will run the pfSense service. Launch VirtualBox and click on New in the toolbar.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Give a name to the VM and using the folder option choose where do you want to save it, I recommend to create a directory just for storing all the elements of this project, take into account that, by the end of the project, near 200GB of space will be consumed.
 
 For the ISO Image I will use the downloaded .iso file. **Type** will be **BSD** and **Version** will be **FreeBSD (64-bit)** option. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 For the amount of RAM and CPU I will keep the default configuration. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lastly, I will set **20GB** as Disk Size value. Leave the other options untouched. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Verify that the configuration is complete. Click Finish.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Optional: Create a VM group for the project
 
@@ -56,11 +56,11 @@ I recommend creating a VM machine group to have everything tidy and sorted.
 
 For doing this, right-click on the VM and select **Move to Group > \[New]**.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now right-click on the New group and click Rename Group.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also create subgroups inside the main one, so you can divide the components by type or function if you want.
 
@@ -68,29 +68,29 @@ You can also create subgroups inside the main one, so you can divide the compone
 
 We need to make a few fast changes. Click on **Settings**.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### System Configuration
 
 First, select **System > Motherboard** and, in the **Boot Order** section, place the **Hard Disk** option as first, followed by **Optical** and uncheck **Floppy**.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Deactivating Audio and USB
 
 Go to the **Audio** section and uncheck the **Enable Audio** option. Since the VM purpose is to act as a router we don't need audio.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Make the same change in the **USB** section, uncheck **Enable USB Controller**, we will not need USB support.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Network configuration
 
 Select the **Network** section in the left menu of the Settings tab.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here, we are going to configure four virtual network adapters that emulate the physical devices. Each VirtualBox VM can use up to eight virtual network adapters, however just four virtual network adapters can be configured in the VirtualBox GUI (graphical user interface).
 
@@ -98,15 +98,15 @@ More information plus configuration explanations can be found in this [link](htt
 
 Let's go for the **Adapter 1**. For **Attached to** field choose **NAT**, then expand the **Advanced** section and choose **Paravirtualized Network (virtio-net)** as the **Adapter Type**.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 For **Adapter 2**, check the **Enable Network Adapter** box. Select **Internal Network** for the **Attached to** field. As Name, write **LAN 0**. In the **Advanced** section, choose **Paravirtualized Network (virtio-net)** as the **Adapter Type**.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 For **Adapter 3**, repeat the same configuration, except for the **Name**, in this case we will use **LAN 1**.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 Last but not least, configure the **Adapter 4** in the same way, but name it **LAN 2**.
 
