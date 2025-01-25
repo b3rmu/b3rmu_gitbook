@@ -15,7 +15,7 @@ layout:
 
 # SIEMple project: A fast Sentinel deployment
 
-### PROJECT DESCRIPTION
+### Project Description
 
 In this mini-project I want to set up and configure my own Sentinel at home.
 

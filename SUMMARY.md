@@ -14,4 +14,5 @@
 * [SIEMple project: A fast Sentinel deployment](siemple-project-a-fast-sentinel-deployment/README.md)
   * [1. Get started with Azure](siemple-project-a-fast-sentinel-deployment/1.-get-started-with-azure.md)
   * [2. Creating resources and workspaces](siemple-project-a-fast-sentinel-deployment/2.-creating-resources-and-workspaces.md)
-  * [3. Sentinel setup](siemple-project-a-fast-sentinel-deployment/3.-sentinel-setup.md)
+  * [3. Sentinel deployment](siemple-project-a-fast-sentinel-deployment/3.-sentinel-deployment.md)
+  * [4. Ingesting Data](siemple-project-a-fast-sentinel-deployment/4.-ingesting-data.md)
