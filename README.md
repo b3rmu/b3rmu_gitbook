@@ -1,6 +1,6 @@
 ---
 icon: square-terminal
-description: a GitbBook by Sergio Bermúdez
+description: a GitBook by Sergio Bermúdez
 cover: >-
   .gitbook/assets/DALL·E 2025-01-23 21.10.47 - A striking and modern digital
   illustration representing hacking, featuring a glowing laptop with lines of
