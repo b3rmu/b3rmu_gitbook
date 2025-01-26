@@ -34,7 +34,7 @@ I will choose the latest LTS version (in my case 24.04.1), as you can see the fi
 
 Open VirtualBox and click on New.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Give our VM a name and choose where do you want to store it. Then select the ISO image we downloaded and check the **Skip Unattended Installation** box. Click Next.
 
@@ -42,7 +42,7 @@ Give our VM a name and choose where do you want to store it. Then select the ISO
 
 Set the Base Memory to **4096MB**, the Processors do not need to be increased. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Set the Hard Disk size to **100GB** and click Next.
 

@@ -24,23 +24,23 @@ Go to [pfSense Download link](https://atxfiles.netgate.com/mirror/downloads/) an
 
 Use a decompression tool to extract the ISO file.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Create the VM
 
 I will use VirtualBox to create the VM that will run the pfSense service. Launch VirtualBox and click on New in the toolbar.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Give a name to the VM and using the folder option choose where do you want to save it, I recommend to create a directory just for storing all the elements of this project, take into account that, by the end of the project, near 200GB of space will be consumed.
 
 For the ISO Image I will use the downloaded .iso file. **Type** will be **BSD** and **Version** will be **FreeBSD (64-bit)** option. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For the amount of RAM and CPU I will keep the default configuration. Click Next.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lastly, I will set **20GB** as Disk Size value. Leave the other options untouched. Click Next.
 

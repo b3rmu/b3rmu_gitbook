@@ -16,3 +16,7 @@
   * [2. Creating resources and workspaces](siemple-project-a-fast-sentinel-deployment/2.-creating-resources-and-workspaces.md)
   * [3. Sentinel deployment](siemple-project-a-fast-sentinel-deployment/3.-sentinel-deployment.md)
   * [4. Ingesting Data](siemple-project-a-fast-sentinel-deployment/4.-ingesting-data.md)
+
+## ARTICLES
+
+* [How to enhance Windows command-line and PowerShell  activities monitoring](articles/how-to-enhance-windows-command-line-and-powershell-activities-monitoring.md)
